@@ -1,0 +1,51 @@
+.sub-text{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txt-medium {
+    font-family: "Medium";
+}
+
+.my-name{
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 4rem;
+    top: 48dvh;
+    right: 18dvw;
+    color: white;
+}
+
+.main-frame{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-frame img{
+    position: absolute;
+    height: 44dvw;
+    bottom: -72dvh;
+}
+
+.back-rec{
+    z-index: 0;
+    position: absolute;
+    height: 50dvw;
+    width: 50dvw;
+    background-color: #0180FE;
+    transform: rotate(-30deg);
+    border-radius: 12dvw;
+}
+
+.white-grad{
+    position: absolute;
+    height: 16dvh;
+    width: 80dvw;
+    background-color: white;
+    top: 72dvh;
+
+
+}

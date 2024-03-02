@@ -1,0 +1,77 @@
+.active{
+    border-bottom-style: solid;
+    border-color: #0180FE;
+}
+nav {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, white , white, rgba(255, 255, 255, 0));
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0.75rem 4rem;
+    font-size: 1.5rem;
+}
+
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 1.8rem;
+    right: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.2rem;
+    height: 2rem;
+}
+
+nav .menu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: black;
+}
+
+@media (max-width: 480px){
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    nav ul.open{
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a {
+        margin:  0.2rem 0.5rem;
+    }
+
+}

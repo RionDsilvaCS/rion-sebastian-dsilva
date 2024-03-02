@@ -1,0 +1,49 @@
+.about-body{
+    margin: 0dvh 15dvw;
+}
+
+.about-text{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+}
+.connect-txt{
+    font-size: 2rem;
+}
+
+.connect-social{
+    display: flex;
+    flex-direction: row;
+}
+
+.connect-circle{
+    height: 48px;
+    width: 48px;
+    border: solid;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    margin: 24px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connect-circle img{
+    height: 32px;
+}
+
+.connect-circle:hover{
+    background-color: black;
+}
+
+.connect-circle img:hover{
+    height: 24px;
+    content: url("../../assets/next_arrow.svg");
+}

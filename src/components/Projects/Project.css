@@ -1,0 +1,43 @@
+.project-cards{
+    display: grid;
+    column-gap: 5rem;
+    row-gap: 4rem;
+    grid-template-columns: auto auto auto;
+}
+
+.white-fade{
+    z-index: 4;
+    background-color: white;
+    width: 99dvw;
+    height: 28dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-card{
+    position: relative;
+    height: 30dvh;
+    width: 25dvw;
+}
+.view-button{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    right: 3rem;
+    bottom: 1.5rem;
+    color: #0180FE;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.view-button p{
+    margin-right: 0.5rem;
+}
+
+.view-button:hover{
+    color: black;
+}
+.project-card img{
+    border-radius: 1rem;
+}
