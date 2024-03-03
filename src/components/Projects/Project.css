@@ -9,8 +9,21 @@
     z-index: 4;
     background-color: white;
     width: 99dvw;
-    height: 28dvh;
+    height: 36dvh;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 480px){
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+        column-gap: 0rem;
+        row-gap: 2rem;
+    }
+    .white-fade{
+        width: 0;
+        height: 12dvh;
+    }
 }

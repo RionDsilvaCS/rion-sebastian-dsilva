@@ -46,6 +46,36 @@
     width: 80dvw;
     background-color: white;
     top: 72dvh;
+}
 
+@media (max-width: 480px){
+    .sub-text{
+        font-size: 3rem;
+        display: flex;
+    }
+    .main-frame img{
+        height: 48dvh;
+        bottom: -60dvh;
+    }
 
+    .my-name{
+        font-size: 2.5rem;
+        text-align: center;
+        top: 44dvh;
+        margin: auto;
+        color: white;
+    }
+
+    .back-rec{
+        bottom: -60dvh;
+        height: 100dvw;
+        width: 100dvw;
+    }
+
+    .white-grad{
+        height: 16dvh;
+        width: 98dvw;
+        background-color: white;
+        top: 56dvh;
+    }
 }

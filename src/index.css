@@ -72,6 +72,7 @@
   text-decoration: none;
   filter: drop-shadow(rgba(0, 0, 0, 0.158) 0rem 0rem 2px);
 }
+
 .view-button p{
   margin-right: 0.5rem;
 }
@@ -88,4 +89,17 @@
   .title{
     font-size: 2rem;
   }
+  .project-card{
+    width: 100%;
+    margin: 0px;
+  }
+  .gen-body{
+    height: fit-content;
+    margin: 0rem 2.5rem;
+  }
+  .gen-body-home{
+    height: 80dvh;
+    margin: 5rem 2.5rem 0rem 2.5rem;
+  }
+
 }

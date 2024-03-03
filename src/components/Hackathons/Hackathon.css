@@ -22,3 +22,13 @@
     font-family: "Medium";
     font-size: 1.25rem;
 }
+
+@media (max-width: 480px){
+    .hackathon-cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        column-gap: 0rem;
+        row-gap: 2rem;
+    }
+}
