@@ -16,13 +16,19 @@ export function Navbar() {
             <span></span>
         </div>
         <ul className={menuOpen ? "open" : ""}>
-            <li>
+            <li onClick={() => {
+                setMenuOpen(!menuOpen);
+            }}>
                 <NavLink smooth to="/#projects">Projects</NavLink>
             </li>
-            <li>
+            <li onClick={() => {
+                setMenuOpen(!menuOpen);
+            }}>
                 <NavLink smooth to="/#hackathons">Hackathons</NavLink>
             </li>
-            <li>
+            <li onClick={() => {
+                setMenuOpen(!menuOpen);
+            }}>
                 <NavLink smooth to="/#experience">Experience</NavLink>
             </li>
         </ul>

@@ -21,6 +21,7 @@
         flex-direction: column;
         column-gap: 0rem;
         row-gap: 2rem;
+        margin-top: 2rem;
     }
     .white-fade{
         width: 0;
