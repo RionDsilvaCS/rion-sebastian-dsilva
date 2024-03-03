@@ -36,8 +36,29 @@
     height: 50dvw;
     width: 50dvw;
     background-color: #0180FE;
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
     border-radius: 12dvw;
+
+    animation-name: my_rotate;
+  -webkit-animation-name: my_rotate;
+  animation-duration:8s;
+  -webkit-animation-duration:8s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes my_rotate{
+
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+   
+}
+   
+@keyframes my_rotate{
+
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+
 }
 
 .white-grad{
@@ -70,6 +91,9 @@
         bottom: -64dvh;
         height: 100dvw;
         width: 100dvw;
+        animation-duration:0s;
+        -webkit-animation-duration:0s;
+        transform: rotate(-30deg); 
     }
 
     .white-grad{
