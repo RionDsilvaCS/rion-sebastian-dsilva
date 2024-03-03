@@ -1,0 +1,38 @@
+.box-sec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.proglint-box{
+    height: 64dvh;
+    width: 40dvw;
+    padding: 2rem;
+    margin-right: 1rem;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to bottom, #F26E55, black) border-box;
+    border-radius: 1rem 1rem 0rem 1rem;
+    border: 2px solid transparent;
+}
+
+.digi-side-box{
+    height: 31dvh;
+    width: 40dvw;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #E76E26, black) border-box;
+    border-radius: 1rem 1rem 1rem 0rem;
+    border: 2px solid transparent;
+}
+
+.var-side-box{
+    height: 31dvh;
+    width: 40dvw;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(to right, #7AE6FC, #7474F1) border-box;
+    border-radius: 1rem 1rem 1rem 0rem;
+    border: 2px solid transparent;
+}
