@@ -14,32 +14,3 @@
     align-items: center;
     flex-direction: column;
 }
-
-.project-card{
-    position: relative;
-    height: 30dvh;
-    width: 25dvw;
-}
-
-.view-button{
-    background-color: white;
-    position: absolute;
-    display: flex;
-    padding: 0.5rem 0.75rem;
-    right: 16%;
-    bottom: 12%;
-    color: #0180FE;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    filter: drop-shadow(rgba(0, 0, 0, 0.158) 0rem 0rem 2px);
-}
-.view-button p{
-    margin-right: 0.5rem;
-}
-
-.view-button:hover{
-    color: black;
-}
-.project-card img{
-    border-radius: 1rem;
-}

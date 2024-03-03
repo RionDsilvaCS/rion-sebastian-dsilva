@@ -10,7 +10,7 @@ import arrow_btn from '../../assets/arrow_btn.svg'
 function HackathonCards(prop){
   const hackathon_list = prop.hackathon_cards.map((card) =>
     <div className='project-card'>
-      <img src={card.img_url}/>
+      <img className='card-img' src={card.img_url}/>
       <div className='bottom-title'>
         <p>{card.txt}</p>
       </div>

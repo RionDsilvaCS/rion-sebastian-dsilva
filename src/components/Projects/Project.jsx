@@ -9,7 +9,7 @@ import arrow_btn from '../../assets/arrow_btn.svg'
 function ProjectCards(props){
   const project_list = props.project_cards.map((card) =>
     <div className='project-card'>
-      <img src={card.img_url}/>
+      <img className='card-img' src={card.img_url}/>
       <a href={card.post_link} target="_blank" className='view-button'>
         <p>View</p>
         <img src={arrow_btn} />

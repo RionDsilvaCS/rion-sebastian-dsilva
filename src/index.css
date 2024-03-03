@@ -50,6 +50,40 @@
   margin-top: 3rem;
 }
 
+.project-card{
+  position: relative;
+  height: max-content;
+  width: 25dvw;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.view-button{
+  background-color: white;
+  position: absolute;
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  right: 8%;
+  bottom: 12%;
+  color: #0180FE;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  filter: drop-shadow(rgba(0, 0, 0, 0.158) 0rem 0rem 2px);
+}
+.view-button p{
+  margin-right: 0.5rem;
+}
+
+.view-button:hover{
+  color: black;
+}
+
+.project-card img{
+  border-radius: 1rem;
+}
+
 @media (max-width: 480px){
   .title{
     font-size: 2rem;
