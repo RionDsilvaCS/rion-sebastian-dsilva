@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hackathon.css'
 import hackquest_img from '../../assets/hackathons/hackquest.svg'
-import r from '../../assets/projects/raftaar_banner.svg'
+import framex_img from '../../assets/hackathons/framex.svg'
 import proglint_img from '../../assets/hackathons/proglint.svg'
 import hackday_img from '../../assets/hackathons/hackday.svg'
 import bnmit_img from '../../assets/hackathons/bnmit.svg'
@@ -53,7 +53,13 @@ export function Hackathon() {
       id: 14,
       img_url: hackquest_img,
       txt: "1st Runner up",
-      post_link: "https://github.com/RionDsilvaCS/Raftaar.ai"
+      post_link: "https://www.linkedin.com/posts/rion-dsilva-043464229_hackquest-vitap-trafficsafety-activity-7175110300680028160-mU3M?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      id: 15,
+      img_url: framex_img,
+      txt: "1st Runner up",
+      post_link: "https://www.linkedin.com/posts/rion-dsilva-043464229_framexwebhack-vitap-jobvista-activity-7175491191126306817-tLOe?utm_source=share&utm_medium=member_desktop"
     }
   ];
 

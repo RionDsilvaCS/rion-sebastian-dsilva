@@ -13,7 +13,7 @@
     position: absolute;
     font-family: "Semibold";
     font-size: 4rem;
-    top: 48dvh;
+    top: 44dvh;
     margin: auto;
     color: white;
 }
@@ -33,8 +33,8 @@
 .back-rec{
     z-index: 0;
     position: absolute;
-    height: 50dvw;
-    width: 50dvw;
+    height: 56dvw;
+    width: 56dvw;
     background-color: #0180FE;
     /* transform: rotate(-30deg); */
     border-radius: 12dvw;
@@ -46,6 +46,14 @@
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
 }
+
+/* .white-grad{
+    position: absolute;
+    height: 16dvh;
+    width: 80dvw;
+    background-color: white;
+    top: 60dvh;
+} */
 
 @-webkit-keyframes my_rotate{
 
@@ -61,45 +69,66 @@
 
 }
 
-.white-grad{
-    position: absolute;
-    height: 16dvh;
-    width: 80dvw;
-    background-color: white;
-    top: 72dvh;
-}
-
-@media (max-width: 480px){
+@media only screen and (max-width: 640px) {
     .sub-text{
         font-size: 2.5rem;
         display: flex;
     }
     .main-frame img{
-        height: 48dvh;
+        height: 88dvw;
         bottom: -60dvh;
     }
 
     .my-name{
         font-size: 2.5rem;
         text-align: center;
-        top: 40dvh;
+        top: 44dvh;
         margin: auto;
         color: white;
     }
 
     .back-rec{
-        bottom: -64dvh;
-        height: 100dvw;
-        width: 100dvw;
-        animation-duration:0s;
-        -webkit-animation-duration:0s;
-        transform: rotate(-30deg); 
+        bottom: -52dvh;
+        height: 68dvw;
+        width: 68dvw;
     }
 
-    .white-grad{
+    /* .white-grad{
         height: 16dvh;
         width: 98dvw;
         background-color: white;
         top: 56dvh;
+    } */
+  }
+  
+  @media only screen and (min-width: 640px) and (max-width: 992px) {
+    .sub-text{
+        font-size: 2.5rem;
+        display: flex;
     }
-}
+    .main-frame img{
+        height: 60dvh;
+        bottom: -68dvh;
+    }
+
+    .my-name{
+        font-size: 3rem;
+        text-align: center;
+        top: 52dvh;
+        margin: auto;
+        color: white;
+    }
+    .back-rec{
+        bottom: -60dvh;
+        height: 68dvw;
+        width: 68dvw;
+    }
+
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .back-rec{
+        bottom: -100dvh;
+    }
+  }
+  

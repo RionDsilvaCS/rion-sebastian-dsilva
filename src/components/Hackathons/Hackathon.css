@@ -23,12 +23,32 @@
     font-size: 1.25rem;
 }
 
-@media (max-width: 480px){
+@media only screen and (max-width: 640px) {
     .hackathon-cards{
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
         column-gap: 0rem;
         row-gap: 2rem;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 992px) {
+    .hackathon-cards{
+        display: grid;
+        column-gap: 4rem;
+        row-gap: 2rem;
+        grid-template-columns: auto auto;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .hackathon-cards{
+        display: grid;
+        column-gap: 5rem;
+        row-gap: 4rem;
+        grid-template-columns: auto auto auto;
+        margin-top: 4rem;
     }
 }

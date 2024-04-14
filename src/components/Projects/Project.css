@@ -1,4 +1,6 @@
 .project-cards{
+    z-index: 5;
+    margin-top: 20dvh;
     display: grid;
     column-gap: 5rem;
     row-gap: 4rem;
@@ -6,25 +8,52 @@
 }
 
 .white-fade{
+    position: absolute;
     z-index: 4;
     background-color: white;
-    width: 99dvw;
-    height: 36dvh;
+    width: 96dvw;
+    height: 60dvh;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-@media (max-width: 480px){
+@media only screen and (max-width: 640px) {
     .project-cards{
         display: flex;
         flex-direction: column;
         column-gap: 0rem;
         row-gap: 2rem;
-        margin-top: 2rem;
+        margin-top: 7rem;
     }
     .white-fade{
-        width: 0;
+        width: 80dvw;
         height: 12dvh;
     }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 992px) {
+    .project-cards{
+        display: grid;
+        column-gap: 4rem;
+        row-gap: 2rem;
+        grid-template-columns: auto auto;
+        margin-top: 12rem;
+    }
+    .white-fade{
+        width: 80dvw;
+        height: 0px;
+        background-color: white;
+        
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .project-cards{
+        display: grid;
+        column-gap: 5rem;
+        row-gap: 4rem;
+        grid-template-columns: auto auto auto;
+    }
+
 }

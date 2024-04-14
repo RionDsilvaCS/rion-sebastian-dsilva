@@ -37,7 +37,8 @@
     border: 2px solid transparent;
 }
 
-@media (max-width: 480px){
+
+@media only screen and (max-width: 768px) {
     .box-sec{
         display: flex;
         flex-direction: column;
@@ -75,4 +76,86 @@
         border-radius: 1rem 1rem 0rem 1rem;
         border: 2px solid transparent;
     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .box-sec{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .proglint-box{
+        height: fit-content;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to bottom, #F26E55, black) border-box;
+        border-radius: 1rem 1rem 0rem 1rem;
+        border: 2px solid transparent;
+    }
+
+    .digi-side-box{
+        height: fit-content;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to right, #E76E26, black) border-box;
+        border-radius: 1rem 1rem 0rem 1rem;
+        border: 2px solid transparent;
+    }
+
+    .var-side-box{
+        height: fit-content;
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to right, #7AE6FC, #7474F1) border-box;
+        border-radius: 1rem 1rem 0rem 1rem;
+        border: 2px solid transparent;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .box-sec{
+        display: flex;
+        flex-direction: row;
+        margin-top: 3rem;
+    }
+    
+    .proglint-box{
+        height: 64dvh;
+        width: 40dvw;
+        padding: 2rem;
+        margin-right: 1rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to bottom, #F26E55, black) border-box;
+        border-radius: 1rem 1rem 0rem 1rem;
+        border: 2px solid transparent;
+    }
+    
+    .digi-side-box{
+        height: 31dvh;
+        width: 40dvw;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to right, #E76E26, black) border-box;
+        border-radius: 1rem 1rem 1rem 0rem;
+        border: 2px solid transparent;
+    }
+    
+    .var-side-box{
+        height: 31dvh;
+        width: 40dvw;
+        padding: 2rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(to right, #7AE6FC, #7474F1) border-box;
+        border-radius: 1rem 1rem 1rem 0rem;
+        border: 2px solid transparent;
+    }
+    
 }
