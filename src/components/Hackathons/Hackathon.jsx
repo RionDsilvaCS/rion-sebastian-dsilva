@@ -5,6 +5,7 @@ import framex_img from '../../assets/hackathons/framex.svg'
 import proglint_img from '../../assets/hackathons/proglint.svg'
 import hackday_img from '../../assets/hackathons/hackday.svg'
 import bnmit_img from '../../assets/hackathons/bnmit.svg'
+import reva_hack from '../../assets/hackathons/reva_hack.svg'
 import arrow_btn from '../../assets/arrow_btn.svg'
 
 function HackathonCards(prop){
@@ -60,6 +61,12 @@ export function Hackathon() {
       img_url: framex_img,
       txt: "1st Runner up",
       post_link: "https://www.linkedin.com/posts/rion-dsilva-043464229_framexwebhack-vitap-jobvista-activity-7175491191126306817-tLOe?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      id: 16,
+      img_url: reva_hack,
+      txt: "1st Runner up",
+      post_link: "https://www.linkedin.com/posts/rion-dsilva-043464229_shecodes2024-hackathon-generativeai-activity-7208430693943582720-a2ap?utm_source=share&utm_medium=member_desktop"
     }
   ];
 

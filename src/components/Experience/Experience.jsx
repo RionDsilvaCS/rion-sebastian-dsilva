@@ -14,7 +14,7 @@ export function Experience() {
           </a>
           <div>
             <h3>Machine Learning Engineer | Proglint Software Solutions </h3>{" "}
-            <p> Oct 2023 - Present </p>
+            <p> Oct 2023 - June 2024 </p>
             <br />
             <p>
               Leveraging machine learning expertise to create innovative

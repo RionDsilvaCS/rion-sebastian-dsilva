@@ -4,6 +4,7 @@ import vox_pop_proj from '../../assets/projects/voxpop_banner.svg'
 import raftaar_proj from '../../assets/projects/raftaar_banner.svg'
 import stressaway_proj from '../../assets/projects/stressaway_banner.svg'
 import lipsync_proj from '../../assets/projects/lipsync_banner.svg'
+import vlearn_proj from '../../assets/projects/vlearn_banner.svg'
 import arrow_btn from '../../assets/arrow_btn.svg'
 
 function ProjectCards(props){
@@ -44,6 +45,11 @@ export function Project() {
       id: 4,
       img_url: raftaar_proj,
       post_link: "https://github.com/RionDsilvaCS/Raftaar.ai"
+    },
+    {
+      id: 5,
+      img_url: vlearn_proj,
+      post_link: "https://github.com/RionDsilvaCS/SheCodes-VLearn"
     }
   ];
 
