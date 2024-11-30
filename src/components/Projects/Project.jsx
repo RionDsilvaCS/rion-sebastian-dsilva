@@ -1,10 +1,11 @@
 import React from 'react'
 import './Project.css'
-import vox_pop_proj from '../../assets/projects/voxpop_banner.svg'
+import trustinsure_proj from '../../assets/projects/trustinsure_banner.svg'
 import raftaar_proj from '../../assets/projects/raftaar_banner.svg'
-import stressaway_proj from '../../assets/projects/stressaway_banner.svg'
-import lipsync_proj from '../../assets/projects/lipsync_banner.svg'
-import vlearn_proj from '../../assets/projects/vlearn_banner.svg'
+import cr_project from '../../assets/projects/cr_banner.svg'
+import handkeypoint_proj from '../../assets/projects/handkeypoint_banner.svg'
+import nexgentutor_proj from '../../assets/projects/nexgentutor_banner.svg'
+import segmentsphere_proj from '../../assets/projects/segmentsphere_banner.svg'
 import arrow_btn from '../../assets/arrow_btn.svg'
 
 function ProjectCards(props){
@@ -28,28 +29,33 @@ export function Project() {
   const project_cards = [
     {
       id: 1,
-      img_url: vox_pop_proj,
-      post_link: "https://github.com/RionDsilvaCS/VoxPop.ai"
+      img_url: trustinsure_proj,
+      post_link: "https://github.com/RionDsilvaCS/TrustInsure.ai"
     },
     {
       id: 2,
-      img_url: stressaway_proj,
-      post_link: "https://github.com/RionDsilvaCS/StressAway-WebApp"
+      img_url: handkeypoint_proj,
+      post_link: "https://docs.ultralytics.com/datasets/pose/hand-keypoints/"
     },
     {
       id: 3,
-      img_url: lipsync_proj,
-      post_link: "https://github.com/RionDsilvaCS/LipSync"
-    },
-    {
-      id: 4,
       img_url: raftaar_proj,
       post_link: "https://github.com/RionDsilvaCS/Raftaar.ai"
     },
     {
+      id: 4,
+      img_url: nexgentutor_proj,
+      post_link: "https://github.com/RionDsilvaCS/nex-gen-tutor"
+    },
+    {
       id: 5,
-      img_url: vlearn_proj,
-      post_link: "https://github.com/RionDsilvaCS/SheCodes-VLearn"
+      img_url: segmentsphere_proj,
+      post_link: "https://github.com/RionDsilvaCS/rjac-edge-ai-innovation"
+    },
+    {
+      id: 6,
+      img_url: cr_project,
+      post_link: "https://github.com/RionDsilvaCS/contextual-retrieval-by-anthropic"
     }
   ];
 

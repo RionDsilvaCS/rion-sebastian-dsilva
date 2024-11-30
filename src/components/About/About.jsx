@@ -10,15 +10,12 @@ export function About() {
     <div className='gen-body about-body'>
       <p className='title'>About me</p>
       <p className='about-text'>
-      Hi there! I'm Rion Sebastian Dsilva.<br/>
-      I'm a passionate computer science student at VIT-AP University, currently working towards my B.Tech degree. 
-      My ultimate goal is to become a skilled Machine Learning Engineer, and I'm already actively pursuing this 
-      dream by immersing myself in various projects.<br/><br/>
-      I've gained experience in exciting areas like Deep Learning, Computer Vision, NLP, web development, and even 
-      Android development. This diverse exposure has equipped me with a strong foundation in various programming languages 
-      and frameworks, allowing me to approach problems from different angles and find innovative solutions. <br/><br/>
+      Hi there! I'm <b>Rion Sebastian Dsilva</b><br/>
+      Pursuing as a computer science student at VIT-AP University, currently final year of my B.Tech degree.<br/>
+      I'm a <b>Deep Learning Engineer</b> and actively pursuing by immersing myself in various projects.<br/><br/>
+      I've gained experience in exciting areas like <b>Computer Vision and Gen AI</b>. This diverse exposure has equipped me with a strong foundation for solving problems from different angles and finding innovative solutions. <br/><br/>
       I'm constantly eager to learn and grow, and I'm excited to see what the future holds in the ever-evolving world of technology. 
-      If you're looking for a dedicated and enthusiastic individual with a passion for Machine Learning, feel free to explore my portfolio and get in touch!
+      If you're looking for a dedicated and enthusiastic individual with a passion for Deep Learning and Gen AI, feel free to <b>connect!</b>
       </p>
       <div className='connect'>
         <p className='connect-txt'>Connect</p>

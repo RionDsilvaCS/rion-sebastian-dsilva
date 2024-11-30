@@ -6,6 +6,9 @@
     margin-top: 2rem;
     text-align: center;
     font-size: 1.25rem;
+    padding-left: 4dvw;
+    padding-right: 4dvw;
+    letter-spacing: 1px
 }
 
 .connect{
